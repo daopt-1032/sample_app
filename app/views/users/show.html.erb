@@ -1,0 +1,20 @@
+<h1>User Information</h1>
+<div class="">
+  <div class="col-md-6">
+    <div class="form-control">
+      <label>ID: </label>
+      <%= @user.id %>
+    </div>
+
+    <div class="form-control">
+      <label>Name: </label>
+      <%= @user.name %>
+    </div>
+
+    <div class="form-control">
+      <label>Email:</label>
+      <%= @user.email %>
+    </div>
+    <%= link_to "Back", users_path, class: "btn btn-info" %>
+  <div>
+</div>

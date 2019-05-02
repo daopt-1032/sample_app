@@ -1,0 +1,18 @@
+<h3>
+  Count: <%= User.count %>
+</h3>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th cope="col">#</th>
+      <th cope="col">Name</th>
+      <th cope="col">Email</th>
+      <th cope="col">Image</th>
+      <th cope="col">Edit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= render @users %>
+  </tbody>
+</table>
